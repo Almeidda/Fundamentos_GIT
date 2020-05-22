@@ -1,3 +1,41 @@
-Coisas básicas
-Principios
-Fundamentos
+#Coisas básicas
+#Principios
+#Fundamentos
+
+1-mkdir <<nome>>(Cria uma pasta na home)
+	1.1 cd <nome da pasta criada> 
+2-git init (inicia o git dentro do repositótio criado no passo anterior)
+3-gedit <<nome_arquivo_text>>
+4-git add <<nome_arquivo_text>> (o mesmo nome do arquivo criado no passo anterior)
+5-git commit 
+	Caso não tenha colocado seu email e user do gitHub siga esses passos:
+		5.1 git config --global user.email "seu email" (mater as aspas)
+		5.2 git config --global user.name "seu user"
+		5.3 git commit
+//Irá abir um editor de texto padrão no terminal(nano, provavelmente), escreva seu commit, quando terminar use: Ctrl+x pra sair, pedirá pra salvar, salve,  e pronto commit feito.  
+checagem:
+
+6- git status: Verifica se exite algo a ser commitado
+7- git log: Verifica quem foi o usuário que fez a ultima alteração
+
+Depois de Criado o Repositório no GtHub:
+//Ainda dentro da pasta criado no Terminal.
+
+8- git remote add origin https://github.com/Almeidda/Fundamentos_GIT.git
+//Esse passo vincula seu repositório local com o remoto.
+
+9- git push
+	//Caso seja a primeira vez será necessário utilizar esse comando:
+	9.1- git push -u origin master
+	(Pode ser necessário colocar Usarname e senha do GitHub, ponha caso seja solicidtado).
+
+10- git config --global push.default simple
+//Por padrão use este comando. (Nada acontecerá)
+
+
+
+
+
+ 	
+
+
