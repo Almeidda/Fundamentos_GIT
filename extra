@@ -1,0 +1,5 @@
+git status // Vê o status dos arquivos do repositório e se estão commitados
+git log	   // mostra os ultimos commits feitos	
+git add    // adiciona arquivos ao commit
+git commit // faz o commit
+git push  // adiciona os arquivos editados ao gitHub

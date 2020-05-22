@@ -32,6 +32,9 @@ Depois de Criado o Repositório no GtHub:
 //Por padrão use este comando. (Nada acontecerá)
 
 
+extras:
+
+git config --global core.editor gedit //troca o editor
 
 
 
